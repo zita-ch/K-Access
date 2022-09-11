@@ -3,7 +3,7 @@ pybullet implementation of icra 2022 paper on a1, Accessibility-Based Clustering
 
 `main.py` to train, `test.py` to test. To change the initial state distribution, change the `self.configs` in `bittleenv.py`.
 
-Only 300 poses are used for accessibility estimation and clustering, which takes 6 hours on my laptop. Still it is effective, and I combine it with the 9 predefiend poses. To show the great efficacy, clustering 1000 poses should work. Codes are in the `/k-access_preprocess` folder.
+Only 300 poses are used for accessibility estimation and clustering, which takes 6 hours **on my laptop**. Still it is effective, and I combine it with the 9 predefiend poses. To show the great efficacy, clustering 1000 poses should work. Codes are in the `/k-access_preprocess` folder.
 
 Learning Curves: The proposed initial state distribution (red) outperforms the random initial states (blue).
 ![Screenshot from 2022-09-02 17-29-10](https://user-images.githubusercontent.com/54518250/188116361-471e6934-5690-4195-82f1-a875c63b51f6.png)
